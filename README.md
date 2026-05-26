@@ -2,7 +2,7 @@
 
 The data collection frame primarily mounts the sensor system comprising a ZED2i camera, TI IWR1443, and TI DCA1000 to its front. All of the parts were used and or redesigned from the <a href="https://radarml.github.io/red-rover/">RadarML Red Rover</a>.
 
-Before commiting to any hardware work, first the following software applications must be downloaded:
+Before committing to any hardware work, first, the following software applications must be downloaded:
   1. <a href="https://www.stereolabs.com/developers/release">ZED SDK 5.3</a> - Software development kit to analyze ZED function and data collection
   2. <a href="https://www.ti.com/tool/UNIFLASH">Uniflash</a> - App to flash firmware onto the board
   3. <a href="https://www.ti.com/tool/MMWAVE-STUDIO">mmWave Studio</a> - TI's GUI for configuring and visualizing radar data
@@ -30,4 +30,4 @@ TBA
 TBA
 
 ## Hardware Assembly
-Download and 3D print all .STL parts. Like before, the <a href="https://radarml.github.io/red-rover/roverc/assembly/">Red Rover Hardware Assembly</a> can be used to guide through this assembly process. Just ignore any steps related to the top plate IMU and the rear-plate-NUC subassembly, as the NUC and IMU are substituted and omitted, respectively.
+Download and 3D print all .STL parts. Like before, the <a href="https://radarml.github.io/red-rover/roverc/assembly/">Red Rover Hardware Assembly</a> can be used to guide through this assembly process. Just ignore any steps related to the IMU, NUC, or Blackmagic Camera, as these components are either substituted or omitted, within our assembly.
