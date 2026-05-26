@@ -9,4 +9,10 @@ Before commiting to any hardware work, first the following software applications
   4. <a href="https://www.ti.com/tool/CCSTUDIO">Code Composer Studio (CCS)</a> - VSC for those who want to develop firmware themselves
   5. <a href="https://www.ti.com/tool/MMWAVE-SDK">mmWave SDK</a> - Software development kit for radar that includes demos, API documentation, and example firmware (install after CCS)
 
+The first app pertains to the ZED2i and contains data capture, calibration, and other tools. The latter four are used for the TI IWR1443 and DCA1000 radar system.
+
+## Software Installation
+
+### ZED SDK
+
 Download and 3D print all .STL parts.
